@@ -1,0 +1,123 @@
+h1{
+    background-color:cornsilk;
+    border-radius: 20px;
+    text-align: center;
+    color: grey;
+}
+body{
+  background-color:cadetblue;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+}
+@media(max-width:900px){
+  .main{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  }
+
+}
+.images {
+  background-color: aquamarine;
+  max-width: 400px;        
+  display: flex;      
+  flex-direction:column;
+  align-items: center;
+  border: 30px solid aquamarine;
+  border-radius: 15%;
+  gap: 10px;          
+}
+.images a{
+  text-align: center;
+
+}
+
+.images img {
+  width: 70%;        
+  height: auto;       
+  gap:10px;   
+  border-radius: 10px; 
+}
+
+.text{
+  background-color: bisque;
+ margin-top: 200px;
+ color: steelblue;
+ border: 20px solid bisque;
+ border-radius: 8%;
+ height: auto;
+}
+
+h2{
+  font-size: 3em;
+  
+}
+.main2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%; 
+}
+@media(max-width:900px){
+  .main2{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  }
+}
+.tierlist{
+    
+    background-color: aliceblue;
+    border: solid 5px aliceblue;
+    padding: 5%;
+    border-radius: 15%;
+    
+    }
+    table{
+      border-collapse: separate;
+    }
+  .tierlist th.S{
+    background-color: rgb(255, 127, 127);
+    border: solid 5px rgb(255, 127, 127);
+    font-size: 3.5em;
+  }     
+  .row{
+    max-height: 270px;
+    width:400px;  
+    background-color: black;
+    font-size: 3.5em;
+    border: solid 5px black;
+  }
+  .tierlist th.A{
+    background-color: rgb(255, 192, 127);
+    border: solid 5px rgb(255, 192, 127);
+    font-size: 3.5em;
+  } 
+  .tierlist th.B{
+    background-color: rgb(255, 223, 128);
+    border: solid 5px rgb(255, 223, 128);
+    font-size: 3.5em;
+  } 
+  .text_both_sides{
+    display: flex;
+    justify-content: space-between;
+  }
+  p{
+    border: solid 5px bisque ;
+    border-radius: 15%;
+    font-size: 3.5em;
+  }
+
+  
+
